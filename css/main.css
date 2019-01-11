@@ -1,0 +1,222 @@
+body { 
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif; 
+ }
+
+ .clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+ }
+
+div {
+box-sizing: border-box;
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	padding-bottom: 160px; 
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 41px; 
+	float: left; 
+}
+
+nav {
+	float: right;
+	margin-top: 50px; 
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left; 
+	display: block;
+	margin-right: 41px; 
+}
+
+.menu li a {
+	color: white; 
+	text-decoration: none;
+	text-transform: uppercase; 
+	font-size: 14px; 
+}
+
+.titles_first {
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px; 
+}
+
+h1 {
+	color: white;
+	font-size: 75px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+.button{
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px; 
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold; 
+	font-size: 18px; 
+	margin-top: 50px; 
+}
+
+.title{
+padding-top: 115px; 
+}
+
+.title h2{
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+margin: 0;
+}
+
+.title p {
+color: #777777;
+text-align: center;
+font-size: 16px;
+margin-top: 5px; 
+}
+
+.services{
+	margin-top: 80px;
+}
+
+.services_item{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.services_item h3{
+	font-size: 18px;
+	margin-bottom: 5px; 
+}
+
+.services_item p {
+	font-size: 14px;
+	color: #777777;
+	line-height: 1.55em;
+}
+
+.services_item:last-child {
+	float: right;
+}
+
+.services_item:nth-child(2) {
+	margin-left: 60px;
+}
+
+#services {
+		padding-bottom: 120px;
+}
+
+#portfolio {
+	padding-bottom: 120px;
+	background: #f7f7f7
+}
+
+.works{
+	margin-top: 70px;
+}
+
+.works img{
+	float: left;
+}
+
+.works img:nth-child(2) {
+	margin-left: 29px;
+}
+
+.works img:last-child{
+	float: right;
+}
+
+.about h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 90px;
+	margin-bottom:  0px;
+}
+
+.about p{
+	color: #777777;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 15px; 
+}
+
+.chetv {
+	margin: 0;
+	width: 500px;
+	font-style: normal;
+	margin: 70px 210px;
+	min-height: 200px;
+    
+}
+
+.chetv p {
+	font-size: 14px;
+	color: #777777;
+}
+
+.chetv h3 {
+	font-size: 18px;
+	color: #222222;
+}
+
+.chetv img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.chetv1 p{
+	text-align: right;
+	margin: 0px 50px 0px;
+	text-align: middle;
+}
+
+.chetv2 p{
+	text-align: left;
+	margin: 0px 50px 0;
+}
+
+.chetv1 h3{
+	text-align: right;
+	margin: 0px 50px 0;
+}
+
+.chetv2 h3{
+	text-align: left;
+	margin: 0px 50px 0;
+}
